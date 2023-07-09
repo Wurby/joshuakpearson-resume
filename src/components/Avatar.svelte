@@ -9,7 +9,7 @@
   <div class="w-full bg-slate-200 dark:bg-slate-700 shadow-lg rounded-lg">
     <div class="w-full flex items-center justify-between p-3 space-x-6">
       <div class="flex items-center">
-        <AvatarImage src="src/assets/me.png" alt="Joshua Pearson" />
+        <AvatarImage src="./assets/me.png" alt="Joshua Pearson" />
         <div class="flex flex-col">
           <span class="font-bold ml-2 border-b-2 border-slate-400 mb-1">
             Joshua Keith Pearson
