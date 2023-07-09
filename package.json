@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite && npx tailwindcss -i ./src/input.css -o ./output.css --watch",
     "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
