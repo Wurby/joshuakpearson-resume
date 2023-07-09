@@ -15,6 +15,9 @@
     if (location.pathname === "/") {
       navigate("/home");
     }
+    if (location.pathname == "/joshuakpearson-resume/") {
+      navigate("/home");
+    }
   });
 </script>
 
