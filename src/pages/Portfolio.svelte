@@ -4,9 +4,9 @@
   import InlineLink from "../components/InlineLink.svelte";
 </script>
 
-<div class="my-4">
+<div class="mb-1">
   <section class="md:flex md:flex-wrap justify-center mx-auto">
-    <Card className="max-w-xl md:w-4xl m-2 h-64" arrow>
+    <Card className="max-w-xl md:w-4xl  h-64" arrow>
       <p slot="subtitle">Work Experience</p>
       <p slot="title">Portfolio</p>
       <div slot="accent1">2017</div>
@@ -17,7 +17,7 @@
         for taking the time to look at my portfolio.
       </p>
     </Card>
-    <Card className="max-w-xl md:w-4xl m-2 h-64">
+    <Card className="max-w-xl md:w-4xl  h-64">
       <p slot="title">Links</p>
       <div slot="accent1">Check these out to see my work</div>
       <div slot="content" class="flex-col">
@@ -48,7 +48,7 @@
 
   <div class="md:flex md:flex-wrap justify-center">
     {#each workExperiences as workExperience}
-      <Card className="max-w-xl m-2 h-64" arrow>
+      <Card className="max-w-xl  h-64" arrow>
         <p slot="subtitle">{workExperience.title}</p>
         <p slot="title">{workExperience.subtitle}</p>
         <p slot="accent1">{workExperience.accent1}</p>
