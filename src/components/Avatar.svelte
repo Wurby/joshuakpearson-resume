@@ -27,14 +27,8 @@
     </div>
     <div class="p-3">
       <p class="text-sm">
-        Nice to meet you. I am a self-taught professionally experienced full
-        stack engineer. I have a passion for learning and building. I am
-        currently working on a few personal projects, I am a quick learner and
-        can adapt to any environment. I appreciate a team that is passionate
-        about their work and encourages growth. I enjoy collaborating on
-        important projects and enjoy working with others. I am a problem solver
-        and enjoy the challenge of finding solutions. I enjoy keeping up to date
-        on new technologies and am always looking for ways to improve my skills.
+        Welcome to my portfolio and resume website. I am a full stack developer
+        with a passion for learning and building.
       </p>
       <p class="text-sm pt-2">
         Welcome to my webpage resume. You'll find all my skills on this page.
